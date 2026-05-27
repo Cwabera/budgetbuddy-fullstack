@@ -6,10 +6,10 @@ from flask_cors import CORS
 from config import Config
 from models import db
 
-from routes.auth_routes import auth_bp
-from routes.transaction_routes import transaction_bp
-from routes.budget_routes import budget_bp
-from routes.category_routes import category_bp
+from Routes.auth_routes import auth_bp
+from Routes.transaction_routes import transaction_bp
+from Routes.budget_routes import budget_bp
+from Routes.category_routes import category_bp
 
 
 app = Flask(__name__)
